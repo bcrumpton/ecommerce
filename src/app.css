@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.masthead {
+  background-color: lemonchiffon;
+  height: 4.5rem;
+}
+
+.container {
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+
+.toucan-logo {
+  max-width: 50px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header__logoLink {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.header__logoLink h1 {
+  margin: 0;
+}
+
+.header__search {
+  display: flex;
+  flex: 1 1 auto;
+  padding-right: 20px;
+  height: 40px;
+}
+
+.header__searchInput {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+
+.header__options {
+  display: flex;
+}
+
+.header__option {
+  padding: 0 9px 0;
+}
+
+.home {
+  background: rgba(245, 245, 245);
+  height: calc(100vh - 4.5rem);
+}
+
+.home__banner {
+  position: relative;
+}
+
+.home__banner img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.home__img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: linear-gradient(
+    0deg,
+    rgb(245 245 245) 10%,
+    rgba(255, 255, 255, 0) 49%
+  );
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
